@@ -1,1 +1,62 @@
+<html>
 
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Payment Information</title>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="logo-area">
+      <img src="https://i.imgur.com/tvuz6pz.png" class="logo">
+      <span class="sitename">www.arngren.net</span>
+    </div>
+  </div>
+  
+  <div class="confirm-container">
+  <h1>Payment Information</h1>
+  
+  <form action="thank_you.html" method="post">
+  
+  <p>
+  <label for="Network Name">Network Name:</label><br>
+  <select name="Network" id="Network">
+    <option value="Visa">Visa</option>
+    <option value="Mastercard">Mastercard</option>
+    <option value="American Express">American Express</option>
+    <option value="Discover">Discover</option>
+  </select>
+  </p>
+  
+  <p>
+    <label for="Cardholder Name">Cardholder Name:</label><br>
+    <input type="text" id="Cardholder Name:" name="Cardholder Name">
+  </p>
+  
+  <p>
+    <label for="Credit Card Number">Credit Card Number:</label><br>
+    <input type="number" id="Credit Card Number" name="Credit Card Number">
+  </p>
+  
+  <p>
+    <label for="Expiration Date">Expiration Date:</label><br>
+    <input type="month" id="Expiration Month" name="Expiration Month">
+  </p>
+  
+  <p>
+    <label for="Security Code">Security Code:</label><br>
+    <input type="number" id="Security Code" name="Security Code">
+  </p>
+  
+  <p>
+    <label for="ZIP Code">ZIP Code:</label><br>
+    <input type="text" id="ZIP Code" name="ZIP Code">
+  </p>
+  
+  <input type="submit">
+  
+  </form>
+  </div>
+  
+  </body>
+  </html>
